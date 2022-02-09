@@ -1,0 +1,29 @@
+body {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url(../img/header2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.login-form {
+	padding-top: 90px;
+	padding-bottom: 30px;
+	margin-top: 20vh;
+	background-color: rgba(3,3,3,0.8);
+}
+
+.login-form input{
+	margin-top: 10px;
+}
+
+.login-form p a{
+	color: #fff;
+	font-size: 16px;
+	text-decoration: underline;
+}
+
+.errors {
+	background-color: rgba(3,3,3,0.8);
+	padding: 20px;
+	color: #fff;
+	font-size: 18px;
+}

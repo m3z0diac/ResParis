@@ -1,0 +1,372 @@
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #954ced #fff;
+}
+
+
+body {
+	padding-top: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+}
+
+* {
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+}
+
+/*start navbar*/
+
+.navbar-default .navbar-toggle {
+	border-color: #954ced;
+	background-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #954ced;
+}
+
+.navbar-fixed-top {
+	background: none !important;
+	margin: 0;
+	border-radius: 0%
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 1000ms linear;
+}
+
+.navbar-default{
+	border: none;
+}
+
+.navbar-default .navbar-nav > li {
+	margin-right: 10px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	font-size: 18px;
+	color: #777;
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.dropdown-menu > li > a:hover,.dropdown-menu > li > a:focus
+{
+	background: none;
+	color: #954ced;
+}
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 20px;
+}
+
+.navbar > .container .navbar-brand span:first-child{
+	color: #954ced;
+}
+
+.navbar > .container .navbar-brand span:last-child{
+	color: #777;
+}
+
+.navbar form .btn-default {
+	font-size: 16px;
+	color: black;
+	border: solid 1px #954ced;
+	font-family: 'Trebuchet MS', sans-serif;
+	background: none;
+	margin-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px
+}
+
+.navbar form input[type=text] {
+	font-size: 15px;
+	color: black;
+	border: none;
+	border-radius: 0;
+	border-bottom: solid #954ced 1px;
+	font-family: 'Trebuchet MS', sans-serif;
+	background: none;
+	margin-left: 5px;
+}
+
+.navbar form .btn-default:hover, .navbar form .btn-default:focus{
+	color: black;
+	background: #954ced;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus
+{
+	background: none;
+	color: #954ced;
+}
+
+.navbar-nav > li > .dropdown-menu {
+	background: #fff;
+}
+
+.dropdown-menu > li > a {
+	color: black;
+	background: none;
+	font-family: 'Trebuchet MS', sans-serif !important;
+	font-size: 16px;
+}
+
+/*end navbar*/
+
+/*start header*/
+.header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/Valentines-Day.jpg);
+	background-size: cover;
+	margin: 0;
+	padding-top: 40vh;
+}
+
+.header h1 {
+	color: #fff;
+	font-family: 'Trebuchet MS', sans-serif !important;
+}
+
+.header h3 {
+	color: #fff;
+	font-family: 'Trebuchet MS', sans-serif !important;
+}
+
+.header .btn {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 10px;
+	color: #fff;
+	border: 1px solid #954ced;
+	font-size: 17px;
+	font-family: 'Trebuchet MS', sans-serif !important;
+	background: none;
+}
+
+.header .btn:hover, .header .btn:focus {
+	background: #954ced;
+	color: #fff
+}
+/*end header*/
+
+/*start menu*/
+
+.menu {
+	margin-top: 50px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	align-items: left;
+	align-content: left;
+}
+
+.menu section {
+	padding-top: 50px
+}
+
+.menu h2 {
+	color: #954ced;
+	font-family: 'Trebuchet MS', sans-serif;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.menu .card-food {
+	padding-bottom: 15px;
+	margin-top: 50px;
+	margin: 20px;
+	overflow: hidden;
+	height: 320px;
+	box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.menu .card-food:hover, .menu .card-food:focus {
+	box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.2);
+}
+
+.menu .card-food img {
+	width: 100%;
+	height: 200px;
+}
+
+.menu .card-food h4 {
+	color: #777;
+	margin-top: 15px;
+	font-family: 'Trebuchet MS', sans-serif;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.menu .carousel-indicators {
+	bottom: -50px;
+}
+.menu .carousel-indicators li {
+	width: 25px;
+	height: 25px;
+	border-radius: 0;
+	color: black;
+	text-indent: 0;
+	background: none;
+	border-color: #954ced;
+	border-radius: 0%;
+	overflow: hidden;
+	margin: 5px;
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+}
+.menu .carousel-indicators .active {
+	width: 25px;
+	height: 25px;
+	background-color: #954ced;
+	color: #fff;
+}
+
+
+/*end menu*/
+
+
+/*start about us*/
+
+.about {
+	background: #fff;
+	background-size: cover;
+	margin: 0;
+	padding-top: 5%;
+	padding-bottom: 5%; 
+}
+
+.about h1 {
+	color: #954ced;
+	font-family: 'Trebuchet MS', sans-serif !important;
+}
+
+.about h4 {
+	color: #777;
+	font-family: 'Trebuchet MS', sans-serif !important;
+}
+
+.about img {
+	max-width: 200px;
+	border-radius: 50%;
+}
+
+.about .btn {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 10px;
+	color: #fff;
+	border: 1px solid #954ced;
+	font-size: 17px;
+	font-family: 'Trebuchet MS', sans-serif !important;
+	background: none;
+}
+/*end about us*/
+
+/*start location*/
+
+.location {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.location img {
+	width: 100%;
+}
+
+.location h2 {
+	font-family: 'Trebuchet MS', sans-serif !important;
+	color: #954ced;
+}
+
+.location p {
+	font-size: 17px;
+	font-family: 'Trebuchet MS', sans-serif !important;
+	color: #777;
+}
+
+/*start location*/
+
+
+/*start chefs*/
+
+.chefs {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.chefs h2 {
+	font-family: 'Trebuchet MS', sans-serif !important;
+	color: #954ced;
+}
+
+.chefs img {
+	width: 200px;
+	border-radius: 50%;
+	margin-top: 20px
+}
+
+.chefs h4 {
+	font-family: 'Trebuchet MS', sans-serif !important;
+	color: #777;
+}
+
+
+/*start chefs*/
+
+/*start footer*/
+
+.contact {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.contact h2 {
+	font-family: 'Trebuchet MS', sans-serif !important;
+	color: #954ced;
+}
+
+.contact .btn {
+	background-color: #954ced;
+	color: #fff;
+	border: 2px solid #954ced;
+}
+
+.contact ul li {
+	position: relative;
+	margin-top: 10px;
+}
+
+.contact ul li a {
+	color: black;
+	font-size: 18px;
+	position: relative;
+	text-decoration: none;
+}
+
+
+.contact ul {
+	margin-top: 30px;
+
+}
+
+/*end footer*/

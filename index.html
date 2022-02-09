@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Restaurant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/rtl.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><span><i class="fas fa-wine-glass-alt"></i>Res</span><span>Paris</span></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+       	  <li><a href="#about">À propos</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#appetizers">Appetizers</a></li>
+              <li><a href="#soupes-et-salade">soupes et salade</a></li>
+              <li><a href="#drink">Boisson</a></li>
+            </ul>
+          </li>
+          <li><a href="#location">Location</a></li>
+          <li><a href="#chefs">Nos Chefs</a></li>
+          <li><a href="#contact">Contacter</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <section class="header text-center">
+  	<h1>ResParis Restaurant</h1>
+  	<a href="#menu"><button class="btn btn-default">Voir le menu</button></a>
+  </section>
+
+  <section class="about text-center" id="about">
+    <div class="container">
+      <h1>À propos</h1>
+      <img src="img/free-restaurant-mockup.jpg">
+      <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
+    </div>
+  </section>
+
+  <section class="carousel-foods hidden-xs hidden-sm">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="img/Ext-food.jpg" alt="Los Angeles" style="width:100%;">
+        </div>
+
+        <div class="item">
+          <img src="img/header.jpg" alt="Chicago" style="width:100%;">
+        </div>
+      
+        <div class="item">
+          <img src="img/banner.jpg" alt="New york" style="width:100%;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="menu" class="menu">
+  	<div class="container text-center">
+  		<h2 id="appetizers">Menu</h2>
+      <section class="carousel-foods" id="#appetizers">
+        <div id="myfoods1" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myfoods1" data-slide-to="0" class="active">1</li>
+            <li data-target="#myfoods1" data-slide-to="1">2</li>
+            <li data-target="#myfoods1" data-slide-to="2">3</li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/paté-maison.jpg">
+                  <h4>paté maison, 10€</h4>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/crêpe-au-fromage-de-chèvre.jpg">
+                  <h4>crêpe au fromage de chèvre, 11€</h4>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/crêpe-au-fromage-de-brie.jpg">
+                  <h4>crêpe au fromage de brie, 11€</h4>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/champignon-portabella-aux-quatre-fromages.jpg">
+                  <h4>champignon portabella aux quatre fromages, 12€</h4>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/moules-marinières-à-la-crème.jpg">
+                  <h4>moules marinières à la crème, 10€</h4>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/escargots-bourguignon.jpg">
+                  <h4>escargots bourguignon, 11.5€</h4>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/saumon-fumé.jpg">
+                  <h4>saumon fumé, 13.5€</h4>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/bruschetta-de-flageolets.jpg">
+                  <h4>bruschetta de flageolets, 9€</h4>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/soupe-du-jour.jpg">
+                  <h4>soupe du jour, 5€</h4>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/soup-à-l'oignon.jpg">
+                  <h4>soup à l'oignon, 6€</h4>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/salade-douce-et-amère.jpg">
+                  <h4>salade douce et amère, 5.5€</h4>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/salade-d'epinards.jpeg">
+                  <h4>salade d'epinards, 5.5€</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="carousel-foods" id="soupes-et-salade">
+        <div id="myfoods2" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myfoods2" data-slide-to="0" class="active">1</li>
+            <li data-target="#myfoods2" data-slide-to="1">2</li>
+            <li data-target="#myfoods2" data-slide-to="2">3</li>
+            <li data-target="#myfoods2" data-slide-to="3">4</li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/salade-caesar.jpg">
+                  <h4>salade caesar, 5.5€</h4>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/moules-marinières-à-la-crème-avec-pommes-frites.jpg">
+                  <h4>moules marinières à la crème avec pommes frites, 19.5€</h4>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/poulet-aux-porto.jpg">
+                  <h4>poulet aux porto, 20.5€</h4>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/poulet-à-la-provençale.jpg">
+                  <h4>poulet à la provençale, 20.5€</h4>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/saint-jacques-sauce-orange-gingembre-et-citron-vert.jpg">
+                  <h4>saint jacques sauce orange gingembre et-citron vert, 29€</h4>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/saumon-sauce-endives.jpg">
+                  <h4>saumon sauce endives, 25€</h4>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/bar-au-beurre-blance-et-crabe.jpg">
+                  <h4>bar au beurre blance et crabe, 33€</h4>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/truite-aux-amandes.jpeg">
+                  <h4>truite aux amandes, 20.5€</h4>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/marget-de-grande-sauce-cerises.jpg">
+                  <h4>marget de grande sauce cerises, 29.5€</h4>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/filet-de-porc-sauce-cerises.jpg">
+                  <h4>filet de porc sauce cerises, 21€</h4>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/ris-de-veau-à-la-reine.jpeg">
+                  <h4>ris de veau à la reine, 27.5€</h4>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/carre-d'agneau.jpg">
+                  <h4>carre d'agneau, 34€</h4>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/filet-de-boeuf-sauce-au-poivre.jpg">
+                  <h4>filet de boeuf sauce au poivre, 32€</h4>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/filet-de-boeuf-aux-morilles.jpeg">
+                  <h4>filet de boeuf aux morilles, 34€</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="carousel-foods" id="drink">
+        <div id="mydrink" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#mydrink" data-slide-to="0" class="active">1</li>
+            <li data-target="#mydrink" data-slide-to="1">2</li>
+            <li data-target="#mydrink" data-slide-to="2">3</li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/drink-1.jpg">
+                  <h4>paté maison, 10€</h4>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/drink-2.jpg">
+                  <h4>crêpe au fromage de chèvre, 11€</h4>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/drink-3.jpg">
+                  <h4>crêpe au fromage de brie, 11€</h4>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/drink-4.jpg">
+                  <h4>champignon portabella aux quatre fromages, 12€</h4>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/drink-5.jpg">
+                  <h4>moules marinières à la crème, 10€</h4>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/drink-6.jpg">
+                  <h4>escargots bourguignon, 11.5€</h4>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/drink-7.jpg">
+                  <h4>saumon fumé, 13.5€</h4>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/drink-6.jpg">
+                  <h4>bruschetta de flageolets, 9€</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/drink-8.jpg">
+                  <h4>moules marinières à la crème, 10€</h4>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/drink-9.jpg">
+                  <h4>escargots bourguignon, 11.5€</h4>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/drink-10.jpg">
+                  <h4>saumon fumé, 13.5€</h4>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card-food">
+                  <img src="img/products/drink-11.jpg">
+                  <h4>bruschetta de flageolets, 9€</h4>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+  	</div>
+  </section>
+
+  <section class="location text-center" id="location">
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-lg-6">
+  				<img src="img/map.jpg">
+  			</div>
+  			<div class="col-lg-6">
+  				<h2>Location</h2>
+  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  			</div>
+  		</div>
+  	</div>
+  </section>
+
+  <section class="chefs text-center" id="chefs">
+  	<div class="container">
+  		<h2>Nos Chefs</h2>
+  		<div class="col-lg-4">
+  			<img src="img/chefs/1.jpg">
+  			<h4>John Doe</h4>
+  		</div>
+  		<div class="col-lg-4">
+  			<img src="img/chefs/2.jpg">
+  			<h4>Sara Baelen</h4>
+  		</div>
+  		<div class="col-lg-4">
+  			<img src="img/chefs/3.jpg">
+  			<h4>Elif Cris</h4>
+  		</div>
+  		<div class="col-lg-4 col-lg-push-4">
+  			<img src="img/chefs/4.jpg">
+  			<h4>Ted Pinkman</h4>
+  		</div>
+  	</div>
+  </section>
+
+  <section class="contact" id="contact">
+  	<div class="container">
+  		<div class="col-lg-6">
+  			<h2>contacter</h2>
+			<form>
+			  <div class="form-group">
+			    <label for="exampleFormControlInput1">Nom</label>
+			    <input type="email" class="form-control" id="exampleFormControlInput1">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleFormControlInput1">Prénom</label>
+			    <input type="email" class="form-control" id="exampleFormControlInput1">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleFormControlInput1">Email addresse</label>
+			    <input type="email" class="form-control" id="exampleFormControlInput1">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleFormControlTextarea1">Écrivez votre message</label>
+			    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+			  </div>
+			  <button type="submit" class="btn btn-primary">Envoyer</button>
+			</form>
+		</div>
+		<div class="col-lg-3">
+			<h2 class="text-left">Suivez nous</h2>
+			<ul class="list-unstyled text-left">
+				<li id="twi"><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+				<li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+				<li><a href="#"><i class="fab fa-youtube"></i> YouTube</a></li>
+				<li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+				<li><a href="mailto:hamzaelansari453@gmail.com"><i class="far fa-envelope"></i> support@resparis.com</a></li>
+			</ul>
+		</div>
+		<div class="col-lg-3">
+			<h2 class="text-left">Liens</h2>
+			<ul class="list-unstyled text-left">
+				<li><a href="#about">À propos</a></li>
+				<li><a href="#menu">Menu</a></li>
+				<li><a href="#location">Location</a></li>
+				<li><a href="#chefs">Nos Chefs</li>
+				<li><a href="#contact">Contacter</li>
+			</ul>
+		</div>
+  	</div>
+  </section>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/plugins.js"></script>
+</body>
+</html>

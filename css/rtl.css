@@ -1,0 +1,24 @@
+
+
+.add-food, .order {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.add-food input, .add-food select {
+	display: block;
+	margin-top: 10px;
+}
+
+.add-food select {
+	display: inline;
+}
+
+.add-food input[type=text], .add-food input[type=float] {
+	width: 50%;
+}
+
+.dashboard, .orders, .add-food, .employees {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
